@@ -67,7 +67,7 @@ USAGE:
 		Result=[]
 		Sites=[]
 		
-		while not Source.find('<counter>')==-1: # Splitting all XML response to lists "per site"
+		while not Source.find('<counter>')==-1: # Splitting all XML response to lists "per site" 
 			IDS = Source.find("<counter>")
 			IDE = Source.find("</counter>")
 			Sites.append(Source[IDS+10:IDE])
