@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-class YMReader():  
+class YMReader:  
 	'''YMReader - is free redistributable library for work with Yandex Metrics API
 	
 Author: GrakovNe (Grakov Maksim)
